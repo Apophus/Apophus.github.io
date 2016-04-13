@@ -6,6 +6,7 @@ body{
 }
 h1{
     color: greenyellow;
+    font-family: "Courier 10 Pitch";
 }
 .name{
     padding-top: 350px;
@@ -21,8 +22,9 @@ h1{
 }
 #a{
     display: block;
-    color: greenyellow;
+    color: lightgoldenrodyellow;
     text-align: center;
     padding: 15px 30px;
     text-decoration: none;
+    font-family: "Source Code Pro";
 }
