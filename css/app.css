@@ -1,0 +1,28 @@
+body{
+    background-image: url("../background.jpg");
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+h1{
+    color: greenyellow;
+}
+.name{
+    padding-top: 350px;
+}
+#ul{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#li{
+    float: left;
+}
+#a{
+    display: block;
+    color: greenyellow;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+}
