@@ -28,7 +28,7 @@
             <a href="credentials.html" id="a">Credentials</a></li>
             <li id="li"><a href="portfolio.html" id="a">Portfolio</a>
             </li>
-            <li id="li"><a href="contactme.html" id="a">Contact me</a>
+            <li id="li"><a data-open="exampleModal1" id="a">Contact me</a>
             </li>
         </ul>
     </nav>
@@ -49,9 +49,17 @@
       </section>
   </div>
   <div class="small-12 large-2 columns">
-     <section>
+<div class="reveal" id="exampleModal1" data-reveal>
+  <p class="lead">Holla at me.</p>
+    <form>
+        <input type="email" placeholder="your e-mail">
+        <input type="text" placeholder="your name">
 
-     </section></div>
+    </form>
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
 </div>
 <div class="row">
   <div class="small-3 columns"><!-- ... --></div>
