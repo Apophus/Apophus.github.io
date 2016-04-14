@@ -4,7 +4,7 @@ body{
     width: 100%;
     background-repeat: no-repeat;
 }
-h1{
+h1,h2,h3{
     color: greenyellow;
     font-family: "Courier 10 Pitch";
 }
@@ -27,4 +27,8 @@ h1{
     padding: 15px 30px;
     text-decoration: none;
     font-family: "Source Code Pro";
+}
+p{
+    font-family: "Source Code pro";
+    color: greenyellow;
 }
