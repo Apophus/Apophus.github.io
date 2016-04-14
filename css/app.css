@@ -32,3 +32,15 @@ p{
     font-family: "Source Code pro";
     color: greenyellow;
 }
+.translucent{
+    margin: 20px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=40);
+}
+.translucent p {
+  margin: 5%;
+  font-weight: bold;
+  color: green;
+}
