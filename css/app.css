@@ -4,7 +4,7 @@ body{
     width: 100%;
     background-repeat: no-repeat;
 }
-h1{
+h2,h3,h4{
     color: green;
     font-family: "Courier 10 Pitch";
 }
