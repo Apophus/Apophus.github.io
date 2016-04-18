@@ -1,0 +1,23 @@
+body{
+    margin: 0 auto;
+    background-image:url(../technology_landing.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+li{
+    float: right;
+}
+li{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
