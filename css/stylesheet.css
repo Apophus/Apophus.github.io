@@ -1,6 +1,6 @@
 body{
     margin: 0 auto;
-    background-image:url(../technology_landing.jpg);
+    background-image:url(../bg2.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -28,4 +28,17 @@ img{
 }
 #desc{
     text-align: center;
+}
+.translucent{
+    margin: 10px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=40);
+}
+#top{
+    padding-left: 50px;
+}
+h1,h2,h3,h4,p,li{
+    color: darkblue;
 }
