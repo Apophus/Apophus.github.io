@@ -1,0 +1,26 @@
+nav{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    background-color: aqua;
+    z-index: 900;
+}
+#menu{
+    float: right;
+    height: 100%;
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    right: 12.5%;
+}
+#menu li{
+    display: inline-block;
+    position: relative;
+    margin: 0 20px;
+    box-sizing: border-box;
+    margin-top: 40px;
+    cursor: pointer;
+    -webkit-transition: color .2s;
+     transition: color .2s;
+}
