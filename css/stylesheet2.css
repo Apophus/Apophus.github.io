@@ -60,6 +60,9 @@ body {
   color: #fff;
   overflow: hidden;
 }
+.down{
+    height: 200px;
+}
 .hero h1 {
   margin: 50px 0 20px;
   font-family: "Montserrat", sans-serif;
