@@ -1,52 +1,91 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
 }
-nav{
-    height: 100px;
-    width: 100%;
-    position: fixed;
-    overflow: hidden;
-    background-color: aqua;
-    z-index: 900;
+.landing-page{
+    min-height: 100%;
 }
-header #menu{
-    float: right;
-    height: 100%;
-    list-style-type: none;
-    text-align: center;
-    position: relative;
-    right: 12.5%;
+a {
+  text-decoration: none;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
 }
-#menu li{
-    display: inline-block;
-    position: relative;
-    margin: 0 20px;
-    box-sizing: border-box;
-    margin-top: 40px;
-    cursor: pointer;
-    -webkit-transition: color .2s;
-     transition: color .2s;
+
+body {
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
- header nav #menu li:after{
-    position: absolute;
-    top: -13px;
-    right: 51%;
-    display: block;
-    right: 5%;
-    width: 1px;
-    height: 0;
-    background-color: #257596;
-    content: '';
-    -web-kit-transition: height .2s;
-    transition: height .2s;
+.cl-effect-1 a::before,
+.cl-effect-1 a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
 }
-header nav #menu li:hover:after{
-    height: 48px;
+
+.cl-effect-1 a::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
 }
- header nav #menu li: hover{
-    color: #257596;
+
+.cl-effect-1 a::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
 }
-h1{
-    color: rebeccapurple;
+
+.cl-effect-1 a:hover::before,
+.cl-effect-1 a:hover::after,
+.cl-effect-1 a:focus::before,
+.cl-effect-1 a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
 }
+
+.hero {
+  text-align: center;
+  position: relative;
+  height: auto;
+  padding-bottom: 80px;
+  background: #4f2f60 url("http://miguelquispe.com/pen/images/hero.jpg") center top no-repeat;
+  background-size: cover;
+  color: #fff;
+  overflow: hidden;
+}
+.hero h1 {
+  margin: 50px 0 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+}
+.hero h1 span {
+  font: 700 60px/1 "Dancing Script", cursive;
+  display: block;
+}
+.hero h2 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1em;
+  font-weight: 400;
+  padding: 20px;
+}
+@media only screen and (min-width: 37.5em) {
+  .hero h1 {
+    font-size: 50px;
+  }
+  .hero h1 span {
+    font-size: 76px;
+  }
+  .hero h2 {
+    width: 76%;
+    font-size: 18px;
+  }
+}
+
