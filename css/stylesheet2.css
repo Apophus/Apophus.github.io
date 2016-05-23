@@ -374,11 +374,12 @@ textarea:hover {
 
 /*about me*/
 
-#ame{
-    padding-top: 10px;
+#txt{
+    font-family: 'Lato', sans-serif;
 }
 .about{
-    padding-top: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .img{
     height: 350px;
