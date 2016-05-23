@@ -391,3 +391,9 @@ textarea:hover {
     font-weight: 300;
     color: whitesmoke;
 }
+h3, h4{
+    font-family: 'Walkway SemiBold';
+}
+li{
+    font-family: 'Walkway Oblique';
+}
