@@ -4877,3 +4877,17 @@
   width: 25px;
   height: 25px;
 }
+.footer ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+.footer{
+    background-color: palevioletred;
+}
+.footer li {
+    float: left;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
