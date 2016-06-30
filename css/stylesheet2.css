@@ -397,6 +397,24 @@ h3, h4{
 li{
     font-family: 'Walkway Oblique';
 }
+.footer a{
+    padding: 15px 20px;
+}
 #bl{
 
+}
+.footer{
+    height: 200px;
+    padding-top: 30px;
+}
+.contact{
+    padding-top: 30px;
+
+}
+#cpr{
+    color: whitesmoke;
+    padding-top: 5px;
+}
+.footer{
+    background-color: fuchsia;
 }
