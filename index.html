@@ -7,168 +7,188 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>larrisa</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans|Quicksand' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/foundation.css">
     <link href="css/component.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/hover.css">
+    <!--    <link href="css/style.css" rel="stylesheet">-->
+    <!--    <link rel="stylesheet" href="css/hover.css">-->
     <link rel="stylesheet" href="css/stylesheet2.css">
 </head>
 
 <body>
     <!--The container-->
-    <div class="container">
-        <div class="row" id="home">
-            <div class="row landing-page hero">
+
+    <div class="row home expanded">
+        <div class="small-12 medium-12 large-12 columns ">
+            <div class="landing-page hero ">
+
+                <!--                               navigation bar-->
+                <section class="color-4 ">
+                    <nav class="cl-effect-6">
+                        <a href="#">Home</a>
+                        <a href="#">About me</a>
+                        <a href="#">Portfolio</a>
+                        <a href="#">Contact me</a>
+                        <!--                            <a href="#"></a>-->
+                    </nav>
+                </section>
+
+                <div class="row brian">
+                    <div class="small-12 medium-12 large-12 columns">
+                        <div class="text-box">
+                            <h1><span>Brian Kilel</span>Web Developer</h1>
+                            <h2></h2>
+                        </div>
+                    </div>
 
 
-                <div class="large-12 small-12 columns">
 
-
-
-                    <!--                               navigation bar-->
-                    <section class="color-4">
-                        <nav class="cl-effect-6">
-                            <a href="#">Home</a>
-                            <a href="#">About me</a>
-                            <a href="#">Portfolio</a>
-                            <a href="#">Contact me</a>
-                            <!--                            <a href="#"></a>-->
-                        </nav>
-                    </section>
 
                 </div>
-                <div class="text-box">
-                    <h1><span>Brian Kilel</span>Web Developer</h1>
-                    <h2></h2></div>
+
             </div>
+        </div>
 
 
 
+
+    </div>
+
+    <!--        About me section-->
+
+    <div class="row about">
+        <div class="small-12 medium-12 large-8 large-centered text-center columns">
+            <p id="text">
+                A web developer with keen interest on the sever side development. Part human part tiger. Python is my drug.
+            </p>
 
         </div>
 
-        <!--        About me section-->
-        <div class="row about" id="about">
-            <div class="row text-center">
-                <p id="text">
-                    A web developer with keen interest on the
-                    <br> sever side development. Part human
-                    <br> part tiger. Python is my drug.
-                </p>
+        <div class="row hover07 collumn text-center">
+            <p> Some of my hobbies include:</p>
+
+            <div class="large-3 columns">
+                <figure><img src="./images/reading.jpg" /></figure>
+                <span>Hover</span>
             </div>
-            <div class="row">
-                <div class="large-6 columns text-center">
-                    <h4>My Hobbies include: </h4>
-                    <ul>
-                        <li>Reading</li>
-                        <li>Coding</li>
-                        <li>Listening to music</li>
-                    </ul>
-                </div>
-                <div class="large-6 columns text-center">
-                    <h4>Skills</h4>
-                    <ul>
-                        <li>Front-end Web Development with HTML/CSS </li>
-                        <li>Java</li>
-                        <li>Python and Flask</li>
-                    </ul>
-                </div>
+
+            <div class="large-3 columns">
+                <figure><img src="./images/code__.jpg" /></figure>
+                <span>Hover</span>
             </div>
+
+            <div class="large-3 columns">
+                <figure><img src="./images/music-1.jpg" /></figure>
+                <span>Hover</span>
+            </div>
+
+            <div class="large-3 columns">
+                <figure><img src="./images/music-1.jpg" /></figure>
+                <span>Hover</span>
+            </div>
+
         </div>
+
+        <!--    </div> -->
+
+
+
         <!--The portfolio section-->
 
-        <div class="row" id="portfolio">
-            <div class="row text-center">
-                <h4 class="txt">Portfolio</h4>
+        <div class="row portfolio">
+            <div class="small-12 medium-12 large-12 text-center">
+                <h4 text-center>Portfolio</h4>
             </div>
+        </div>
+        <div class="row">
 
-            <div class="row">
+            <div class="small-12 medium-6 large-3 columns imgWrap one">
+                <!--                    <img class="img" src="./Screenshot.png" />-->
 
-                <div class=" large-3 columns imgWrap one">
-                    <!--                    <img class="img" src="./Screenshot.png" />-->
-
-                    <div class="content">
-                        <h1>Title</h1>
-                        <p>Description</p>
-                    </div>
-                </div>
-
-                <div class=" large-3 columns imgWrap one">
-                    <!--                    <img class="img" src="./Screenshot.png" />-->
-
-                    <div class="content">
-                        <h1>Title</h1>
-                        <p>Description</p>
-                    </div>
-                </div>
-
-                <div class=" large-3 columns imgWrap one">
-                    <!--                    <img class="img" src="./Screenshot.png" />-->
-
-                    <div class="content">
-                        <h1>Title</h1>
-                        <p>Description</p>
-                    </div>
-                </div>
-
-                <div class=" large-3 columns imgWrap one">
-                    <!--                    <img class="img" src="./Screenshot.png" />-->
-
-                    <div class="content">
-                        <h1>Title</h1>
-                        <p>Description</p>
-                    </div>
-                </div>
-
-            </div>
-            <!-- The contact me section.-->
-
-            <div class="row contact" id="contact">
-                <div class="large-12 columns">
-
-                    <header>Contact me</header>
-
-                    <form id="form" class="topBefore">
-
-                        <input id="name" type="text" placeholder="NAME">
-                        <input id="email" type="text" placeholder="E-MAIL">
-                        <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
-                        <input id="submit" type="submit" value="GO!">
-
-                    </form>
-
-                </div>
-
-            </div>
-
-
-            <!-- FOOTER-->
-            <div class="row footer">
-
-                <div class="large-5  large-centered column text-center">
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Contact</a></li>
-
-                    </ul>
-
-
-                    <ul>
-                        <li><a href="https://www.facebook.com/larrisa.brianskilel"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="https://twitter.com/larrisabrians"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="https://github.com/Apophus"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-
-                    </ul>
-
-                    <p><i class="fa fa-copyright" aria-hidden="true"></i> 2016</p>
-
+                <div class="content">
+                    <h1>Title</h1>
+                    <p>Description</p>
                 </div>
             </div>
 
+            <div class="small-12 medium-6 large-3 columns imgWrap one">
+                <!--                    <img class="img" src="./Screenshot.png" />-->
+
+                <div class="content">
+                    <h1>Title</h1>
+                    <p>Description</p>
+                </div>
+            </div>
+
+            <div class="small-12 medium-6 large-3 columns imgWrap one">
+                <!--                    <img class="img" src="./Screenshot.png" />-->
+
+                <div class="content">
+                    <h1>Title</h1>
+                    <p>Description</p>
+                </div>
+            </div>
+
+            <div class="small-12 medium-6 large-3 columns imgWrap one">
+                <!--                    <img class="img" src="./Screenshot.png" />-->
+
+                <div class="content">
+                    <h1>Title</h1>
+                    <p>Description</p>
+                </div>
+            </div>
 
         </div>
+
+        <!-- The contact me section.-->
+
+        <!--
+    <div class="row contact" id="contact">
+    <div class="large-12 small-12 columns">
+
+        <header>Contact me</header>
+
+        <form id="form" class="topBefore">
+
+            <input id="name" type="text" placeholder="NAME">
+            <input id="email" type="text" placeholder="E-MAIL">
+            <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+            <input id="submit" type="submit" value="GO!">
+
+        </form>
+
+    </div>
+
+</div>-->
+
+
+        <!-- FOOTER-->
+        <div class="row footer">
+
+            <div class="large-6 small-12 large-centered column text-center">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+
+
+                <ul>
+                    <li><a href="https://www.facebook.com/larrisa.brianskilel"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="https://twitter.com/larrisabrians"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/Apophus"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+
+                </ul>
+
+                <p><i class="fa fa-copyright" aria-hidden="true"></i> 2016</p>
+
+            </div>
+        </div>
+
+
     </div>
 
     <script src="js/vendor/jquery.js"></script>

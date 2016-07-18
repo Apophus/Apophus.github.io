@@ -16,11 +16,14 @@ a {
     transition: all .3s ease;
 }
 
+
+/*
 body {
     font-family: "Merriweather", serif;
     font-size: 16px;
     line-height: 1.5;
 }
+*/
 
 
 /*link hover effects*/
@@ -128,7 +131,7 @@ ul {
 }
 
 .imgWrap {
-    width: 300px;
+    /*    width: 300px;*/
     height: 300px;
     background-color: transparent;
     overflow: hidden;
@@ -159,7 +162,7 @@ img {
 
 .one {
     background-image: url(../Screenshot.png);
-    background-size: 100% 300px;
+    /*    background-size: 100% 300px;*/
 }
 
 .two {
@@ -437,4 +440,86 @@ li {
 
 .navi {
     position: fixed;
+    background-color: ;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/*    hobby hover effects*/
+
+.collumn {
+    margin: 0;
+    padding: 0;
+}
+
+.collumn:last-child {
+    padding-bottom: 60px;
+}
+
+.collumn::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.collumn div {
+    position: relative;
+    float: left;
+/*    width: 300px;*/
+    height: 200px;
+/*    margin: 0 0 0 25px;*/
+    padding: 0;
+}
+
+.collumn div:first-child {
+    margin-left: 0;
+}
+
+.collumn div span {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    z-index: -1;
+    display: block;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    color: #444;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    opacity: 0;
+}
+
+figure {
+    width: 300px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+}
+
+figure:hover+span {
+    bottom: -36px;
+    opacity: 1;
+}
+
+.hover07 figure img {
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.hover07 figure:hover img {
+    -webkit-filter: blur(0);
+    filter: blur(0);
 }
