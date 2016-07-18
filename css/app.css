@@ -1,26 +1,35 @@
-body{
+body {
     background-image: url("../background.jpg");
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
+    margin: 0;
+    padding: : 0;
 }
-h2,h3,h4{
+
+h2,
+h3,
+h4 {
     color: green;
     font-family: "Courier 10 Pitch";
 }
-.name{
+
+.name {
     padding-top: 50px;
 }
-#ul{
-  list-style-type: none;
+
+#ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
-#li{
+
+#li {
     float: left;
 }
-#a{
+
+#a {
     display: block;
     color: lightgoldenrodyellow;
     text-align: center;
@@ -28,83 +37,79 @@ h2,h3,h4{
     text-decoration: none;
     font-family: "Source Code Pro";
 }
-p{
+
+p {
     font-family: "Source Code pro";
     color: green;
 }
-.translucent{
+
+.translucent {
     margin: 20px;
-  background-color: #ffffff;
-  border: 1px solid black;
-  opacity: 0.6;
-  filter: alpha(opacity=40);
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=40);
 }
+
 .translucent p {
-  margin: 5%;
-  font-weight: bold;
-  color: green;
+    margin: 5%;
+    font-weight: bold;
+    color: green;
 }
-h1{
+
+h1 {
     color: greenyellow;
-     font-family: "Courier 10 Pitch";
+    font-family: "Courier 10 Pitch";
 }
-==============================================
-slideUp
-==============================================
-*/
 
-
-.slideUp{
-	animation-name: slideUp;
-	-webkit-animation-name: slideUp;
-
-	animation-duration: 3s;
-	-webkit-animation-duration: 3s;
-
-	animation-timing-function: ease;
-	-webkit-animation-timing-function: ease;
-
-	visibility: visible !important;
+==============================================slideUp==============================================*/ .slideUp {
+    animation-name: slideUp;
+    -webkit-animation-name: slideUp;
+    animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+    visibility: visible !important;
 }
 
 @keyframes slideUp {
-	0% {
-		transform: translateY(100%);
-	}
-	50%{
-		transform: translateY(-8%);
-	}
-	65%{
-		transform: translateY(4%);
-	}
-	80%{
-		transform: translateY(-4%);
-	}
-	95%{
-		transform: translateY(2%);
-	}
-	100% {
-		transform: translateY(0%);
-	}
+    0% {
+        transform: translateY(100%);
+    }
+    50% {
+        transform: translateY(-8%);
+    }
+    65% {
+        transform: translateY(4%);
+    }
+    80% {
+        transform: translateY(-4%);
+    }
+    95% {
+        transform: translateY(2%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
 }
 
 @-webkit-keyframes slideUp {
-	0% {
-		-webkit-transform: translateY(100%);
-	}
-	50%{
-		-webkit-transform: translateY(-8%);
-	}
-	65%{
-		-webkit-transform: translateY(4%);
-	}
-	80%{
-		-webkit-transform: translateY(-4%);
-	}
-	95%{
-		-webkit-transform: translateY(2%);
-	}
-	100% {
-		-webkit-transform: translateY(0%);
-	}
+    0% {
+        -webkit-transform: translateY(100%);
+    }
+    50% {
+        -webkit-transform: translateY(-8%);
+    }
+    65% {
+        -webkit-transform: translateY(4%);
+    }
+    80% {
+        -webkit-transform: translateY(-4%);
+    }
+    95% {
+        -webkit-transform: translateY(2%);
+    }
+    100% {
+        -webkit-transform: translateY(0%);
+    }
 }
