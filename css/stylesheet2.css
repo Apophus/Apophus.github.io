@@ -523,3 +523,16 @@ figure:hover+span {
     -webkit-filter: blur(0);
     filter: blur(0);
 }
+
+
+/*    portfolio background*/
+
+.bg1 {
+    background-image: url(../images/chocoland.png);
+    background-size: cover;
+}
+
+.bg2 {
+    background-image: url(../images/Screenshot.png);
+    background-size: cover;
+}
