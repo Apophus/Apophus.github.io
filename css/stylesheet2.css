@@ -536,3 +536,7 @@ figure:hover+span {
     background-image: url(../images/Screenshot.png);
     background-size: cover;
 }
+
+#p {
+    font-size: 1.5em;
+}
